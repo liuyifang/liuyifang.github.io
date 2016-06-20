@@ -5,7 +5,7 @@ myApp.controller('MyController', function MyController($scope, $http) {
   	var vm = this;
   	vm.clinvar = data;
 
-    $scope.clinvar = data;
+    // $scope.clinvar = data;
     $scope.order = 'c9';
     $scope.direction = 'reverse';
   });	
