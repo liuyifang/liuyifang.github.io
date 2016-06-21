@@ -8,5 +8,11 @@ myApp.controller('MyController', function MyController($scope, $http) {
     // });
     $scope.order = 'c9';
     $scope.direction = 'reverse';
+
+    $scope.totalDisplayed = 20;
+  
+    $scope.loadMore = function () {
+      $scope.totalDisplayed += 20;  
+    };
   });	
 });
